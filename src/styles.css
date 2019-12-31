@@ -1,0 +1,77 @@
+/* font-family: 'Parisienne', cursive; */
+/* font-family: 'Bree Serif', serif; */
+
+body {
+  font-family: sans-serif;
+  color: lightcoral;
+}
+
+aside {
+  border-radius: 10px;
+  background-color: lightgrey;
+  margin: 5px;
+  padding: 5px;
+}
+
+aside b {
+  font-family: "Bree Serif", serif;
+  font-size: 130%;
+  color: darkred;
+}
+
+section {
+  border-radius: 10px;
+  background-color: lightgrey;
+  margin: 5px;
+  padding: 5px;
+}
+
+header {
+  background-color: black;
+  border-radius: 15px;
+  border-style: double;
+  border-color: greenyellow;
+  border-width: 10px;
+}
+
+h1 {
+  font-family: "Pacifico", cursive;
+  color: white;
+  font-size: 30px;
+}
+
+.outerWrap {
+  display: grid;
+  grid-template-columns: 1fr;
+  background-color: lightcoral;
+  padding: 10px 25px 10px 25px;
+  border-radius: 18px;
+  margin-left: 5%;
+  margin-right: 5%;
+  row-gap: 0.5em;
+}
+
+.innerWrap {
+  background-color: black;
+  border-radius: 15px;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+.wrapper p {
+  color: white;
+}
+
+#clickCounter {
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 5px;
+  border-color: black;
+  background-color: lightcoral;
+  padding: 5px;
+}
+
+#clickCount {
+  font-style: bold;
+  font-color: lightcoral;
+}
