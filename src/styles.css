@@ -27,16 +27,17 @@ section {
 }
 
 header {
-  background-color: black;
+  background-color: lightgrey;
   border-radius: 15px;
   border-style: double;
-  border-color: greenyellow;
+  border-color: black;
   border-width: 10px;
 }
 
 h1 {
   font-family: "Pacifico", cursive;
-  color: white;
+  color: lightcoral;
+  text-align: center;
   font-size: 30px;
 }
 
@@ -74,4 +75,10 @@ h1 {
 #clickCount {
   font-style: bold;
   font-color: lightcoral;
+}
+
+#profilePhoto {
+  height: 100px;
+  border: 2px black solid;
+  border-radius: 10px;
 }
